@@ -1,0 +1,161 @@
+* {
+    background-color: white;
+    font-family: monospace;
+}
+
+/* header */
+.header {
+    width: auto;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.header h3 {
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.bi-list {
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+}
+
+/* navbar */
+.navbar {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-beranda {
+    height: 40px;
+    border: 2px solid black;
+    border-bottom: 0px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.list-tentang {
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.navbar.active {
+    display: block;
+}
+
+*,*:before,*:after{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: white;
+}
+
+/* halaman beranda */
+.list-artikel {
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.list-artikel h3 {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list-artikel p {
+    color: black;
+    margin: 0;
+}
+
+.list-artikel .link {
+    text-decoration: none;
+    color: black;
+}
+
+/* artikel */
+.artikel {
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.artikel h3 {
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.artikel p {
+    color: black;
+    margin: 0;
+}
+
+.kode p {
+    color: lightcoral;
+}
+
+/* halaman tentang */
+.tentang {
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+.social-media {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.bi-instagram, .bi-youtube {
+    font-size: 1.3rem;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.tentang h3, .tentang p {
+    text-align: center;
+    margin: 20px;
+ }

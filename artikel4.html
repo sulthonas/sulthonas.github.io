@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sulthon.a.s</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="header">
+        <h3>sulthon.a.s</h3>
+        <div class="bi bi-list" id="list"></div>
+    </div>
+    <ul class="navbar" id="navbar">
+        <a href="../index.html" class="list-beranda">beranda</a>
+        <a href="tentang.html" class="list-tentang">tentang</a>
+    </ul>
+    <div class="artikel">
+        <h3>kalkulator sederhana c++</h3>
+        <p>kalkulator c++ adalah program yang memungkinkan pengguna untuk melakukan operasi perhitungan matematika. dalam bahasa pemrograman c++, kalkulator biasanya menerima masukan angka dan operasi matematika, lalu menghitung dan menampilkan hasilnya. contoh sederhana kode untuk kalkulator penjumlahan, pengurangan, perkalian, dan pembagian telah diberikan dalam jawaban sebelumnya.</p>
+        <br>
+        <p>1. berikut ini contoh kode kalkulator sederhana:</p>
+        <br>
+        <div class="kode">
+            <p>#include <iostream></p>
+            <p>using namespace std;</p>
+            <br>
+            <p>int main() {</p>
+            <p>&nbsp double angka_pertama, angka_kedua;</p>
+            <p>&nbsp char operator;</p>
+            <br>
+            <p>&nbsp cout << "masukkan angka pertama: "; </p>
+            <p>&nbsp cin >> angka_pertama;</p>
+            <br>
+            <p>&nbsp cout << "masukkan angka kedua: "; </p>
+            <p>&nbsp cin >> angka_kedua;</p>
+            <br>
+            <p>&nbsp cout << "masukkan operator (+, -, *, /): "; </p>
+            <p>&nbsp cin >> operator;</p>
+            <br>
+            <p>&nbsp if(operator == '+') {</p>
+            <p>&nbsp &nbsp cout << angka_pertama << " + " << angka_kedua << " = " << angka_pertama + angka_kedua;</p>
+            <p>&nbsp } else if(operator == '-') {</p>
+            <p>&nbsp &nbsp cout << angka_pertama << " - " << angka_kedua << " = " << angka_pertama - angka_kedua;</p>
+            <p>&nbsp } else if(operator == '*') {</p>
+            <p>&nbsp &nbsp cout << angka_pertama << " * " << angka_kedua << " = " << angka_pertama * angka_kedua;</p>
+            <p>&nbsp } else if(operator == '/') {</p>
+            <p>&nbsp &nbsp cout << angka_pertama << " / " << angka_kedua << " = " << angka_pertama / angka_kedua;</p>
+            <p>&nbsp }</p>
+            <p>&nbsp return 0;</p>
+            <p>}</p>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
